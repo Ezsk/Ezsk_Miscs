@@ -27,5 +27,5 @@ e-inkタブレットPCの大きさにピッタリな防水ケースです、UPS�
 容量は少ないものの取り出し動作コストが低いので、緊急時に使いたいアイテムを入れておくのに適しています。
 
 
-改造・再配布はご自由にどうぞ。報告は不要ではありませんが喜びます。
+改造・再配布はご自由にどうぞ。報告は不要ですが喜びます。
 Feel free to modify and re-distribute. Reports are not required, but will be appreciated.
