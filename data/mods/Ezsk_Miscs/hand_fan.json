@@ -1,0 +1,104 @@
+[
+  {
+    "id": "fd_cold_breezes",
+    "type": "field_type",
+    "intensity_levels": [ { "name": "そよ風", "sym": "&", "convection_temperature_mod": -12 } ],
+    "decay_amount_factor": 5,
+    "percent_spread": 100,
+    "outdoor_age_speedup": "100 minutes",
+    "priority": -1,
+    "half_life": "1 minutes",
+    "phase": "gas",
+    "display_field": true
+  },
+  {
+    "id": "emit_cold_air_weak_stream",
+    "type": "emit",
+    "field": "fd_cold_breezes",
+    "intensity": 1,
+    "qty": 8
+  },
+  {
+    "id": "small_handy_fan",
+    "type": "TOOL",
+    "name": "ハンディファン",
+    "description": "屋外で使いやすいよう握り手が付いた小型扇風機です。うちわを使えばいい？非効率的？いいえ、いま涼しければ何だって良いのです。",
+    "weight": "160 g",
+    "volume": "500 ml",
+    "price": 5000,
+    "to_hit": -3,
+    "bashing": 2,
+    "material": "plastic",
+    "symbol": ";",
+    "color": "brown",
+    "ammo": "battery",
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "use_action": {
+      "target": "small_handy_fan_on",
+      "msg": "ハンディファンの電源を入れました。",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "電池切れのようです",
+      "menu_text": "オンにする",
+      "type": "transform"
+    },
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
+        "default_magazine": "light_disposable_cell"
+      }
+    ],
+    "looks_like": "fan"
+  },
+  {
+    "id": "small_handy_fan_on",
+    "copy-from": "small_handy_fan",
+    "type": "TOOL",
+    "name": "ハンディファン(オン)",
+    "description": "屋外で使いやすいよう握り手が付いた小型扇風機です。微かな動作音と共にファンが回っています。",
+    "power_draw": 10000,
+    "emits": [ "emit_cold_air_weak_stream" ],
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "revert_to": "small_handy_fan",
+    "use_action": {
+      "target": "small_handy_fan",
+      "msg": "ハンディファンの電源を切りました。",
+      "menu_text": "オフにする",
+      "type": "transform"
+    }
+  },
+  {
+    "result": "small_handy_fan",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "difficulty": 4,
+    "skills_required": [ "electronics", 4 ],
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": false,
+    "book_learn": [ [ "manual_electronics", 4 ], [ "mag_electronics", 4 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "sheet_metal_small", 1 ] ],
+      [ [ "motor_micro", 1 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "cable", 5 ] ],
+      [ [ "e_scrap", 2 ] ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "electronics",
+    "items": [ { "item": "small_handy_fan", "prob": 5 } ]
+  },
+  {
+    "id": "office_mess",
+    "type": "item_group",
+    "items": [ { "item": "small_handy_fan", "prob": 2 } ]
+  }
+]

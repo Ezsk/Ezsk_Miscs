@@ -1,0 +1,105 @@
+[
+  {
+    "copy-from": "box_large",
+    "id": "box_large",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "large cardboard box", "str_pl": "large cardboard boxes" },
+    "use_action": [
+      { "type": "deploy_furn", "furn_type": "f_cardboard_box" },
+      {
+        "type": "transform",
+        "menu_text": "折畳む",
+        "msg": "あなたは段ボールを畳んだ。",
+        "moves": 300,
+        "target": "box_large_folded"
+      }
+    ]
+  },
+  {
+    "copy-from": "box_large",
+    "id": "box_large_folded",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "段ボールL(折畳)", "str_pl": "段ボールL(折畳)" },
+    "volume": "18900 ml",
+    "longest_side": "45 cm",
+    "pocket_data": [  ],
+    "use_action": {
+      "type": "transform",
+      "menu_text": "展開する",
+      "msg": "あなたは段ボールを組み立てた。",
+      "moves": 1200,
+      "target": "box_large"
+    },
+    "looks_like": "cardboard"
+  },
+  {
+    "copy-from": "box_medium",
+    "id": "box_medium",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "medium cardboard box", "str_pl": "medium cardboard boxes" },
+    "use_action": [
+      {
+        "type": "transform",
+        "menu_text": "折畳む",
+        "msg": "あなたは段ボールを畳んだ。",
+        "moves": 300,
+        "target": "box_medium_folded"
+      }
+    ]
+  },
+  {
+    "copy-from": "box_medium",
+    "id": "box_medium_folded",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "段ボールM(折畳)", "str_pl": "段ボールM(折畳)" },
+    "volume": "15568 ml",
+    "longest_side": "25 cm",
+    "pocket_data": [  ],
+    "use_action": {
+      "type": "transform",
+      "menu_text": "展開する",
+      "msg": "あなたは段ボールを組み立てた。",
+      "moves": 1200,
+      "target": "box_medium"
+    },
+    "looks_like": "cardboard"
+  },
+  {
+    "copy-from": "box_small",
+    "id": "box_small",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "small cardboard box", "str_pl": "small cardboard boxes" },
+    "use_action": [
+      {
+        "type": "transform",
+        "menu_text": "折畳む",
+        "msg": "あなたは段ボールを畳んだ。",
+        "moves": 300,
+        "target": "box_small_folded"
+      }
+    ]
+  },
+  {
+    "copy-from": "box_small",
+    "id": "box_small_folded",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "段ボールS(折畳)", "str_pl": "段ボールS(折畳)" },
+    "volume": "660 ml",
+    "longest_side": "11 cm",
+    "pocket_data": [  ],
+    "use_action": {
+      "type": "transform",
+      "menu_text": "展開する",
+      "msg": "あなたは段ボールを組み立てた。",
+      "moves": 1200,
+      "target": "box_large"
+    },
+    "looks_like": "cardboard"
+  }
+]

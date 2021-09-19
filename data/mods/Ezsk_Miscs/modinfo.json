@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Ezsk_Miscs",
+    "name": "Ezsk_Miscs",
+    "authors": [ "Ezsk" ],
+    "description": "あったらいいな、と思うようなちょっとした小物を追加します。\n「ハンディファン」「乾燥たんぽぽ」「e-ink防水ケース」「折畳段ボールL/M/S」「オキシマウスピース」「リストバンドポーチ」が含まれています。",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

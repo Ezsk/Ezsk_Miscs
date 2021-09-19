@@ -1,0 +1,62 @@
+[
+  {
+    "id": "wristbanded_pouch",
+    "type": "ARMOR",
+    "name": { "str": "リストバンドポーチ", "str_pl": "リストバンドポーチ" },
+    "description": "ジョギングの際にコインや鍵を入れる、手首に付けるタイプのポーチです。\n本当に小さなナイフなら隠し持てるかも知れません。",
+    "weight": "20 g",
+    "volume": "150 ml",
+    "price": 1250,
+    "price_postapoc": 2000,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "hat_cotton",
+    "color": "white",
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "13 cm",
+        "max_contains_volume": "40 ml",
+        "max_contains_weight": "80 g",
+        "moves": 20,
+        "flag_restriction": [ "SHEATH_KNIFE" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "13 cm",
+        "max_contains_volume": "100 ml",
+        "max_contains_weight": "100 g",
+        "moves": 20
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Sheath knife", "holster_msg": "You sheath your %s" },
+    "flags": [ "SKINTIGHT", "OVERSIZE", "WATERPROOF" ],
+    "armor": [ { "coverage": 5, "covers": [ "arm_l" ] } ]
+  },
+  {
+    "result": "wristbanded_pouch",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_STORAGE",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "reversible": true,
+    "using": [ [ "tailoring_cotton_patchwork", 2 ], [ "fastener_small", 2 ] ],
+    "proficiencies": [ { "proficiency": "prof_closures" } ]
+  },
+  {
+    "id": "hardware_clothing",
+    "type": "item_group",
+    "items": [ { "item": "wristbanded_pouch", "prob": 5 } ]
+  },
+  {
+    "id": "accessory_weaponcarry",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ { "item": "wristbanded_pouch", "prob": 5 } ]
+  }
+]
