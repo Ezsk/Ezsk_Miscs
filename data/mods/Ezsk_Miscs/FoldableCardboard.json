@@ -39,7 +39,7 @@
     "id": "box_medium",
     "type": "GENERIC",
     "category": "container",
-    "name": { "str": "段ボールM", "str_pl": "段ボールM" },
+    "name": { "str": "medium cardboard box", "str_pl": "medium cardboard boxes" },
     "use_action": [
       {
         "type": "transform",
@@ -73,7 +73,7 @@
     "id": "box_small",
     "type": "GENERIC",
     "category": "container",
-    "name": { "str": "段ボールS", "str_pl": "段ボールS" },
+    "name": { "str": "small cardboard box", "str_pl": "small cardboard boxes" },
     "use_action": [
       {
         "type": "transform",
