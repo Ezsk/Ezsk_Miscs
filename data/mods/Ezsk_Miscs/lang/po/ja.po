@@ -1,0 +1,147 @@
+# Ezsk_Miscs
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Ezsk_Miscs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-05 18:17+0800\n"
+"PO-Revision-Date: 2021-09-05 18:17+0800\n"
+"Last-Translator: Binrui Dong <brett.browning.dong@gmail.com>\n"
+"Language-Team: Ezsk\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ./mods/Ezsk_Miscs/dried_tanpopo.json
+# type: COMESTIBLE /name
+msgid "Dried Dandelion"
+msgid_plural "Dried Dandelions"
+msgstr[0] "乾燥たんぽぽ"
+
+# ./mods/Ezsk_Miscs/dried_tanpopo.json
+# type: COMESTIBLE /description
+msgid "A well-dried dandelion. Let's enjoy it boiling as dandelion tea."
+msgstr "よく乾燥させたたんぽぽです、煮出してたんぽぽ茶として頂きましょう。"
+
+# ./mods/Ezsk_Miscs/dried_tanpopo.json
+# type: recipe /book_learn/cookbook_daintydishes/recipe_name
+msgid "Royal Penny Tea"
+msgstr "ロイヤルペニーティー"
+
+# ./mods/Ezsk_Miscs/eink_WaterproofCase.json
+# type: GENERIC /name
+msgid "e-ink Waterproof case"
+msgid_plural "e-ink Waterproof cases"
+msgstr[0] "e-ink防水ケース"
+
+# ./mods/Ezsk_Miscs/eink_WaterproofCase.json
+# type: GENERIC /description
+msgid "A waterproof case that fits the size of the e-ink tablet PC perfectly, with just a bit of room for when it's UPS'd."
+msgstr "e-inkタブレットPCの大きさにピッタリな防水ケースです、UPS化した時のためにほんの少し余裕があります。"
+
+# ./mods/Ezsk_Miscs/FoldableCardboard.json
+# type: GENERIC /name
+msgid "large cardboard box"
+msgid_plural "large cardboard boxes"
+msgstr[0] "段ボールL"
+
+# ./mods/Ezsk_Miscs/FoldableCardboard.json
+# type: GENERIC /name
+msgid "large cardboard box(Folded)"
+msgid_plural "large cardboard boxes(Folded)"
+msgstr[0] "段ボールL(折畳)"
+
+# ./mods/Ezsk_Miscs/FoldableCardboard.json
+# type: GENERIC /name
+msgid "cardboard box"
+msgid_plural "cardboard boxes"
+msgstr[0] "段ボールM"
+
+# ./mods/Ezsk_Miscs/FoldableCardboard.json
+# type: GENERIC /name
+msgid "cardboard box(Folded)"
+msgid_plural "cardboard boxes(Folded)"
+msgstr[0] "段ボールM(折畳)"
+
+# ./mods/Ezsk_Miscs/FoldableCardboard.json
+# type: GENERIC /name
+msgid "small cardboard box"
+msgid_plural "small cardboard boxes"
+msgstr[0] "段ボールS"
+
+# ./mods/Ezsk_Miscs/FoldableCardboard.json
+# type: GENERIC /name
+msgid "small cardboard box(Folded)"
+msgid_plural "small cardboard boxes(Folded)"
+msgstr[0] "段ボールS(折畳)"
+
+# ./mods/Ezsk_Miscs/hand_fan.json
+# type: field_type /intensity_levels/0/name
+msgid "gentle breeze"
+msgstr "そよ風"
+
+# ./mods/Ezsk_Miscs/hand_fan.json
+# type: TOOL /name
+msgid "Electric handy fan"
+msgid_plural "Electric handy fans"
+msgstr[0] "ハンディファン"
+
+# ./mods/Ezsk_Miscs/hand_fan.json
+# type: TOOL /description
+msgid "This is a small electric fan with a grip for easy outdoor use. Inefficient? No, anything will do as long as it keeps you cool now."
+msgstr "屋外で使いやすいよう握り手が付いた小型扇風機です。うちわを使えばいい？非効率的？いいえ、いま涼しければ何だって良いのです。"
+
+# ./mods/Ezsk_Miscs/hand_fan.json
+# type: TOOL /name
+msgid "Electric handy fan(ON)"
+msgid_plural "Electric handy fan(ON)s"
+msgstr[0] "ハンディファン(ON)"
+
+# ./mods/Ezsk_Miscs/hand_fan.json
+# type: TOOL /description
+msgid "This is a small electric fan with a grip for easy outdoor use. The fan is spinning with a faint operating noise."
+msgstr "屋外で使いやすいよう握り手が付いた小型扇風機です。微かな動作音と共にファンが回っています。"
+
+# ./mods/Ezsk_Miscs/modinfo.json
+# type: MOD_INFO /name
+msgid "Ezsk_Miscs"
+msgstr "Ezsk_Miscs"
+
+# ./mods/Ezsk_Miscs/modinfo.json
+# type: MOD_INFO /description
+msgid "Add small gadgets that you think would be nice to have."
+msgstr "あったらいいな、と思うようなちょっとした小物を追加します。"
+
+# ./mods/Ezsk_Miscs/Oxi_Mouthpiece.json
+# type: TOOL_ARMOR /name
+msgid "Oxi mouthpiece"
+msgid_plural "Oxi mouthpieces"
+msgstr[0] "オキシマウスピース"
+
+# ./mods/Ezsk_Miscs/Oxi_Mouthpiece.json
+# type: TOOL_ARMOR /description
+msgid "A mouthpiece designed to protect the lungs from harmful gases. It can protect against soot and smoke."
+msgstr "有害な気体から肺を守る目的で作られたマウスピースです、煤煙程度なら防ぐことが出来ます。"
+
+# ./mods/Ezsk_Miscs/Oxi_Mouthpiece.json
+# type: TOOL_ARMOR /name
+msgid "Advanced Oxi mouthpiece"
+msgid_plural "Advanced Oxi mouthpieces"
+msgstr[0] "強化オキシマウスピース"
+
+# ./mods/Ezsk_Miscs/Oxi_Mouthpiece.json
+# type: TOOL_ARMOR /description
+msgid "A mouthpiece designed to protect the lungs from harmful gases. It can prevent toxic gases."
+msgstr "有害な気体から肺を守る目的で作られたマウスピースです、毒ガスを防ぐことが出来ます。"
+
+# ./mods/Ezsk_Miscs/WristbandedPouch.json
+# type: ARMOR /name
+msgid "Wristband Pouch"
+msgid_plural "Wristband Pouch"
+msgstr[0] "リストバンド"
+
+# ./mods/Ezsk_Miscs/WristbandedPouch.json
+# type: ARMOR /description
+msgid "This is a type of pouch that you can wear on your wrist to hold coins or keys when jogging. You might be able to conceal a really small knife in it."
+msgstr "ジョギングの際にコインや鍵を入れる、手首に付けるタイプのポーチです。本当に小さなナイフなら隠し持てるかも知れません。"

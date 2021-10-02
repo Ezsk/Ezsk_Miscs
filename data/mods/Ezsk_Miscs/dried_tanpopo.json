@@ -2,7 +2,7 @@
   {
     "type": "COMESTIBLE",
     "id": "dry_dandelion",
-    "name": "乾燥たんぽぽ",
+    "name": "Dried Dandelion",
     "weight": "3 g",
     "color": "yellow",
     "spoils_in": "360 days",
@@ -11,7 +11,7 @@
     "quench": -1,
     "healthy": 1,
     "calories": 5,
-    "description": "よく乾燥させたたんぽぽです、煮出してたんぽぽ茶として頂きましょう",
+    "description": "A well-dried dandelion. Let's enjoy it boiling as dandelion tea.",
     "price": 180,
     "material": "veggy",
     "volume": "10 ml",

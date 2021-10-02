@@ -2,8 +2,8 @@
   {
     "id": "wristbanded_pouch",
     "type": "ARMOR",
-    "name": { "str": "リストバンドポーチ", "str_pl": "リストバンドポーチ" },
-    "description": "ジョギングの際にコインや鍵を入れる、手首に付けるタイプのポーチです。\n本当に小さなナイフなら隠し持てるかも知れません。",
+    "name": { "str": "Wristband Pouch", "str_pl": "Wristband Pouch" },
+    "description": "This is a type of pouch that you can wear on your wrist to hold coins or keys when jogging. You might be able to conceal a really small knife in it.",
     "weight": "20 g",
     "volume": "150 ml",
     "price": 1250,

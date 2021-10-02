@@ -2,8 +2,8 @@
   {
     "id": "oxi_mouthpiece",
     "type": "TOOL_ARMOR",
-    "name": "オキシマウスピース",
-    "description": "有害な気体から肺を守る目的で作られたマウスピースです、煤煙程度なら防ぐことが出来ます。",
+    "name": "Oxi mouthpiece",
+    "description": "A mouthpiece designed to protect the lungs from harmful gases. It can protect against soot and smoke.",
     "weight": "10 g",
     "volume": "50 ml",
     "price": 200,
@@ -24,8 +24,8 @@
   {
     "id": "oxi_mouthpiece_ex",
     "type": "TOOL_ARMOR",
-    "name": "強化オキシマウスピース",
-    "description": "有害な気体から肺を守る目的で作られたマウスピースです、毒ガスを防ぐことが出来ます。",
+    "name": "Advanced Oxi mouthpiece",
+    "description": "A mouthpiece designed to protect the lungs from harmful gases. It can prevent toxic gases.",
     "weight": "20 g",
     "volume": "50 ml",
     "price": 600,
