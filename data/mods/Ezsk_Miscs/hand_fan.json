@@ -2,14 +2,14 @@
   {
     "id": "fd_cold_breezes",
     "type": "field_type",
-    "intensity_levels": [ { "name": "そよ風", "sym": "&", "convection_temperature_mod": -12 } ],
+    "intensity_levels": [ { "name": "gentle breeze", "sym": "&", "convection_temperature_mod": -12 } ],
     "decay_amount_factor": 5,
     "percent_spread": 100,
     "outdoor_age_speedup": "100 minutes",
     "priority": -1,
     "half_life": "1 minutes",
     "phase": "gas",
-    "display_field": true
+    "display_field": false
   },
   {
     "id": "emit_cold_air_weak_stream",
@@ -21,8 +21,8 @@
   {
     "id": "small_handy_fan",
     "type": "TOOL",
-    "name": "ハンディファン",
-    "description": "屋外で使いやすいよう握り手が付いた小型扇風機です。うちわを使えばいい？非効率的？いいえ、いま涼しければ何だって良いのです。",
+    "name": "Electric handy fan",
+    "description": "This is a small electric fan with a grip for easy outdoor use. Inefficient? No, anything will do as long as it keeps you cool now.",
     "weight": "160 g",
     "volume": "500 ml",
     "price": 5000,
@@ -35,11 +35,11 @@
     "flags": [ "ALLOWS_REMOTE_USE" ],
     "use_action": {
       "target": "small_handy_fan_on",
-      "msg": "ハンディファンの電源を入れました。",
+      "msg": "You flicked the electric handy fan.",
       "active": true,
       "need_charges": 1,
-      "need_charges_msg": "電池切れのようです",
-      "menu_text": "オンにする",
+      "need_charges_msg": "The fan seems to lack batteries.",
+      "menu_text": "Trun on",
       "type": "transform"
     },
     "pocket_data": [
@@ -56,16 +56,16 @@
     "id": "small_handy_fan_on",
     "copy-from": "small_handy_fan",
     "type": "TOOL",
-    "name": "ハンディファン(オン)",
-    "description": "屋外で使いやすいよう握り手が付いた小型扇風機です。微かな動作音と共にファンが回っています。",
+    "name": "Electric handy fan(ON)",
+    "description": "This is a small electric fan with a grip for easy outdoor use. The fan is spinning with a faint operating noise.",
     "power_draw": 10000,
     "emits": [ "emit_cold_air_weak_stream" ],
     "flags": [ "ALLOWS_REMOTE_USE" ],
     "revert_to": "small_handy_fan",
     "use_action": {
       "target": "small_handy_fan",
-      "msg": "ハンディファンの電源を切りました。",
-      "menu_text": "オフにする",
+      "msg": "You flicked off the electric handy fan.",
+      "menu_text": "Turn off",
       "type": "transform"
     }
   },
